@@ -1,0 +1,111 @@
+﻿html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(img/fondo.jpg);
+  background-position: 0% 9%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+  font-family: Berlin Sans FB;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link .navbar-brand {
+  color: white !important;
+}
+.navbar-brand {
+  font-size: 3vh !important;
+}
+.navbar-link {
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 1.3vw;
+}
+.content {
+  margin-top: 17vw;
+  margin-bottom: 35vw;
+}
+
+h1 {
+  font-size: 5vw !important;
+}
+p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.parallax {
+  height: 30vw;
+  background-image: url(img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 25vw;
+}
+textarea {
+  width: 51.5vw;
+}
+
+.parallax2 {
+  height: 40vw;
+  background-image: url(img/mountains.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.parallax2 h2 {
+  color: black;
+  padding-bottom: 5vh;
+}
+
+.parallax2 p {
+  font-size: 1.3vw;
+}
+
+.btn1 {
+  float: left;
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.btn2 {
+  float: right;
+  background-color: transparent !important;
+  color: black !important;
+}
+.cols3 {
+  position: relative;
+}
+.count {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 12vh;
+}
+.footer {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.rights {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
