@@ -1,10 +1,10 @@
 const Role=require('../models/role');
 const Usuario=require('../models/usuario');
 
-const esRoleValido=async(rol='')=>{
-    const existeRol=await Role.findOne({rol});
+const esRoleValido=async(role='')=>{
+    const existeRol=await Role.findOne({role});
     if(!existeRol){
-        throw new Error(`El rol ${rol} no está registrado en la base de datos`)
+        throw new Error(`El rol ${role} no está registrado en la base de datos`)
     }
 }
 

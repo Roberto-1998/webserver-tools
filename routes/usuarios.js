@@ -17,7 +17,7 @@ router.post('/',[
     check('correo', 'El correo no es válido').isEmail(), 
     check('correo', 'Ese correo ya está registrado').custom(existeEmail), 
     /* check('rol', 'No es un rol válido').isIn(['ADMIN_ROLE', 'USER_ROLE']),  */
-    check('rol').custom(esRoleValido),//? Esto es una forma abreviada de ponerlo, donde se sabe que el primer argumento que enviará el custom será el primer argumento que recibirá el esRolValido: lo mismo que (rol)=>esRoleValido(rol)
+    check('role').custom(esRoleValido),//? Esto es una forma abreviada de ponerlo, donde se sabe que el primer argumento que enviará el custom será el primer argumento que recibirá el esRolValido: lo mismo que (rol)=>esRoleValido(rol)
     validarCampos
 ],usuariosPost)
 
